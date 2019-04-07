@@ -1,2 +1,2 @@
-# Website_MDC_Demo
+# DemoMaterialize
 Website (Only layout) design by Material Design Components

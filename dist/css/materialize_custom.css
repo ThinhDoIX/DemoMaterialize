@@ -1,0 +1,30 @@
+nav {
+	background-color: #8c857a;
+}
+
+.ilike-dark-container {
+	@extend .black, .lighten-4;
+}
+
+body {
+	background-color: #fff !important;
+}
+
+.collection .collection-item.avatar:not(.circle-clipper) > .myimage,
+.collection .collection-item.avatar :not(.circle-clipper) > .myimage {
+  position: absolute;
+  width: 42px;
+  height: 64px;
+  overflow: hidden;
+  left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.collection .collection-item.avatar i.myimage {
+  font-size: 18px;
+  line-height: 42px;
+  color: #fff;
+  background-color: #999;
+  text-align: center;
+}

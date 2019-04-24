@@ -1,3 +1,7 @@
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
 nav {
 	background-color: #8c857a;
 }
@@ -6,25 +10,20 @@ nav {
 	@extend .black, .lighten-4;
 }
 
-body {
-	background-color: #fff !important;
+nav .sidenav-trigger {
+  float: right !important;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
 }
 
-.collection .collection-item.avatar:not(.circle-clipper) > .myimage,
-.collection .collection-item.avatar :not(.circle-clipper) > .myimage {
-  position: absolute;
-  width: 42px;
-  height: 64px;
-  overflow: hidden;
-  left: 15px;
-  display: inline-block;
-  vertical-align: middle;
+
+a#timeOnAir.btn {
+	background-color: #536dfe  !important;
+	box-shadow: none;
 }
 
-.collection .collection-item.avatar i.myimage {
-  font-size: 18px;
-  line-height: 42px;
-  color: #fff;
-  background-color: #999;
-  text-align: center;
+a#timeOnAir:hover {
+	background-color: #d4e157 !important;
 }

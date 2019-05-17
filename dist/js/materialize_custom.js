@@ -24,6 +24,19 @@ $(document).ready(function(){
 	$('.slider').slider();
 });
 
+// Carousel
+$(document).ready(function(){
+	$('.carousel').carousel();
+});
+
+$(document).ready(function(){
+	$('.modal').modal();
+});
+
+$(document).ready(function(){
+   $('.collapsible').collapsible();
+});
+
 /*$(document).ready(function(){
 
 	$(window).scroll(function(){
@@ -40,6 +53,7 @@ $(document).ready(function(){
 		}, 800);
 	});
 }); */
+
 
 
 
